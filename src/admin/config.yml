@@ -2,8 +2,8 @@ backend:
   name: github
   repo: nawwab/myPortfolioWebsite
 
-media_folder: "static/images/uploads"
-public_folder: "/images/uploads"
+media_folder: "static/postimages/"
+public_folder: "/postimages"
 
 collections:
   - name: "posts"

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "test"
-thumbnail: "/images/ghost.jpg"
+thumbnail: "/postimages/awan-langit.jpg"
 date: 2018-11-20 23:42:14 -0700
 ---
 
