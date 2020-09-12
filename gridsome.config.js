@@ -36,5 +36,5 @@ module.exports = {
         publicPath: `/admin`
       }
     },
-  ]
+  ],
 }
