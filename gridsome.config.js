@@ -36,5 +36,8 @@ module.exports = {
         publicPath: `/admin`
       }
     },
+    {
+      use: `gridsome-plugin-tailwindcss`
+    },
   ],
 }

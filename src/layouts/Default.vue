@@ -1,15 +1,26 @@
 <template>
-  <div class="layout">
-    <header class="header">
-      <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-      </strong>
-      <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/about/">About</g-link>
+  <div class="min-h-screen flex flex-col justify-between">
+    <header class="border-b">
+      <nav class="py-4 flex justify-center">
+        <g-link class="mr-8" to="/">artikel</g-link>
+        <g-link class="mr-8" to="/project/">proyek</g-link>
+        <g-link class="mr-8" to="/about/">tentang</g-link>
+        <g-link class="" to="/contact/">kontak</g-link>
       </nav>
     </header>
-    <slot/>
+    <div class="p-8 pb-16">
+      <div class="max-w-screen-lg mx-auto">
+        <slot />
+      </div>
+    </div>
+    <footer class="border-t flex flex-col justify-center items-center py-4">
+      <p class="text-xs">
+        created using gridsome and vue.js
+      </p>
+      <p class="text-xs">
+        &lt;&gt; in Yogyakarta
+      </p>
+    </footer>
   </div>
 </template>
 
@@ -20,31 +31,3 @@ query {
   }
 }
 </static-query>
-
-<style>
-body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  margin:0;
-  padding:0;
-  line-height: 1.5;
-}
-
-.layout {
-  max-width: 760px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-  height: 80px;
-}
-
-.nav__link {
-  margin-left: 20px;
-}
-</style>
