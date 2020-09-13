@@ -1,6 +1,6 @@
 <template>
     <Layout>
-        <h1 class="text-6xl leading-tight">{{$page.post.title}}</h1>
+        <h1 class="text-3xl sm:text-6xl leading-tight">{{$page.post.title}}</h1>
         <p class="text-secondary text-sm mb-4">{{$page.post.date}}</p>
         <div v-html="$page.post.content"></div>
     </Layout>

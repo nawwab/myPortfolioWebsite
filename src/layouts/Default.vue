@@ -14,9 +14,14 @@
       </div>
     </div>
     <footer class="border-t flex flex-col justify-center items-center py-4">
-      <p class="text-xs">
-        created using gridsome and vue.js
-      </p>
+      <div class="mb-2 flex">
+        <a href="https://gridsome.org/">
+          <img src="../gridsome-logo.svg" class="w-8 mr-4" alt="Gridsome logo" title="created using Gridsome">
+        </a>
+        <a href="https://www.netlify.com/">
+          <img src="../netlify-logo.svg" class="w-8" alt="Netlify logo" title="hosted by Netlify">
+        </a>
+      </div>
       <p class="text-xs">
         &lt;&gt; in Yogyakarta
       </p>
