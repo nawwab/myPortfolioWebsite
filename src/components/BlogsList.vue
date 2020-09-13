@@ -26,6 +26,6 @@
 
 <script>
 export default {
-    name: "blogsList"
+    name: "BlogsList"
 }
 </script>

@@ -1,14 +1,18 @@
 <template>
   <Layout>
-    <h1>Contact Goes Here</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur rerum illum odit fugit assumenda rem dolores inventore iste reprehenderit maxime! Iusto.</p>
+    <UnderConstruction />
   </Layout>
 </template>
 
 <script>
+import UnderConstruction from '~/components/UnderConstruction.vue'
+
 export default {
   metaInfo: {
-    title: 'Kontak'
+    title: 'Contact'
+  },
+  components: {
+    UnderConstruction
   }
 }
 </script>
