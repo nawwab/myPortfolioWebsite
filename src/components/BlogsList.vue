@@ -10,18 +10,18 @@
 </template>
 
 <static-query>
-    query {
-        posts: allPost {
-            edges {
-                node {
-                    id,
-                    title,
-                    date,
-                    path
-                }
+query {
+    posts: allPost {
+        edges {
+            node {
+                id,
+                title,
+                date,
+                path
             }
         }
     }
+}
 </static-query>
 
 <script>

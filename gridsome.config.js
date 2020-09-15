@@ -24,9 +24,7 @@ module.exports = {
         path: 'posts/**/*.md',
         typeName: 'Post',
         remark: {
-          plugins: [
-            // ...local plugins
-          ]
+          plugins: []
         }
       }
     },
