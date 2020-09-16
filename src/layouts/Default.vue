@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen flex flex-col justify-between">
-    <header class="border-b">
+    <header class="border-b border-secondary">
       <nav class="py-4 flex justify-center">
         <g-link class="mr-8" to="/">artikel</g-link>
         <g-link class="mr-8" to="/project/">proyek</g-link>
@@ -13,7 +13,7 @@
         <slot />
       </div>
     </div>
-    <footer class="border-t flex flex-col justify-center items-center py-4">
+    <footer class="border-t border-secondary flex flex-col justify-center items-center py-4">
       <div class="mb-2 flex">
         <a href="https://gridsome.org/">
           <img src="../gridsome-logo.svg" class="w-8 mr-4" alt="Gridsome logo" title="created using Gridsome">

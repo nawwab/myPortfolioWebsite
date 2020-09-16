@@ -1,6 +1,7 @@
 ---
 title: "Simple Blog but it is Complete"
 thumbnail: "/postimages/awan-langit.jpg"
+excerpt: "md guide to adding css"
 date: 2018-11-20 23:42:14 -0700
 ---
 

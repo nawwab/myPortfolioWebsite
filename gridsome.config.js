@@ -7,6 +7,8 @@
 module.exports = {
   siteName: 'nawwabzia',
   siteUrl: 'nawwab.netlify.app',
+  siteDescription: 'Hello my name is Nawwab Zia, welcome to my sandbox',
+  icon: 'src/nawwabzia-favicon.png',
   transformers: {
     remark: {
       externalLinksTarget: '_blank',

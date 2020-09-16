@@ -1,6 +1,7 @@
 ---
 title: "It's a lorem guys dont be afraid plz"
 thumbnail: "/postimages/awan-langit.jpg"
+excerpt: "It's just a lipsum guys please don't hate me"
 date: 2018-11-20 23:42:14 -0700
 ---
 

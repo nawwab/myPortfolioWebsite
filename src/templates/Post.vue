@@ -12,8 +12,13 @@ query ($id: ID!) {
   post: post (id: $id) {
     thumbnail
     title
+    excerpt
     date
+    path
     content
+  }
+  metadata {
+    siteUrl
   }
 }
 </page-query>
@@ -22,7 +27,52 @@ query ($id: ID!) {
 export default {
   metaInfo() {
     return {
-      title: this.$page.post.title
+      title: this.$page.post.title,
+      meta: [
+        { name: 'title', content: this.$page.post.title },
+        { name:  'description', content: this.$page.post.excerpt},
+        {
+          property: 'twitter:card',
+          content: 'summary_large_image'
+        },
+        {
+          property: 'twitter:url',
+          content: `${this.$page.metadata.siteUrl}${this.$page.post.path}`
+        },
+        {
+          property: 'twitter:title',
+          content: this.$page.post.title
+        },
+        {
+          property: 'twitter:description',
+          content: this.$page.post.excerpt
+        },
+        {
+          property: 'twitter:image',
+          content: this.$page.post.thumbnail || '../nawwabzia-metapict.png'
+        },
+        // -----
+        {
+          property: 'og:type',
+          content: 'website'
+        },
+        {
+          property: 'og:url',
+          content: `${this.$page.metadata.siteUrl}${this.$page.post.path}`
+        },
+        {
+          property: 'og:title',
+          content: this.$page.post.title
+        },
+        {
+          property: 'og:description',
+          content: this.$page.post.excerpt
+        },
+        {
+          property: 'og:image',
+          content: this.$page.post.thumbnail || '../nawwabzia-metapict.png'
+        },
+      ]
     }
   }
 }
