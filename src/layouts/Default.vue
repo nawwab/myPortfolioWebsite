@@ -2,10 +2,9 @@
   <div class="min-h-screen flex flex-col justify-between">
     <header class="border-b border-secondary">
       <nav class="py-4 flex justify-center">
-        <g-link class="mr-8" to="/">artikel</g-link>
-        <g-link class="mr-8" to="/project/">proyek</g-link>
-        <g-link class="mr-8" to="/about/">tentang</g-link>
-        <g-link class="" to="/contact/">kontak</g-link>
+        <g-link class="mr-8" to="/">articles</g-link>
+        <g-link class="mr-8" to="/projects/">projects</g-link>
+        <g-link class="mr-8" to="/about/">about</g-link>
       </nav>
     </header>
     <div class="p-8 pb-16">

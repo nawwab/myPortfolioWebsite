@@ -95,12 +95,16 @@ export default {
   @apply list-disc;
 }
 
-#markdown-field li {
+#markdown-field ol {
   @apply list-decimal;
 }
 
+#content-field li {
+  @apply text-lg my-2;
+}
+
 #markdown-field pre {
-  @apply bg-gray-900 p-4 rounded my-2;
+  @apply bg-gray-900 p-4 rounded my-2 overflow-x-auto;
 }
 
 #markdown-field code {
