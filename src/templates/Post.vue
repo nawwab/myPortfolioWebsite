@@ -1,10 +1,13 @@
 <template>
     <Layout>
+      <div class="max-w-screen-md mx-auto">
         <g-image v-if="$page.post.thumbnail" :src="$page.post.thumbnail" class="rounded w-full h-64 object-cover mb-4" />
-        <h1 class="text-3xl sm:text-6xl leading-tight">{{$page.post.title}}</h1>
+        <h1 class="text-3xl sm:text-5xl leading-tight">{{$page.post.title}}</h1>
         <p class="text-secondary text-sm mb-4">{{$page.post.date}}</p>
-        <p class="text-xl">{{$page.post.date}}</p>
-        <div v-html="$page.post.content" id="markdown-field"></div>
+        <p class="text-xl font-semibold">{{$page.post.excerpt}}</p>
+        <div v-html="$page.post.content" id="markdown-field">
+        </div>
+      </div>
     </Layout>
 </template>
 
@@ -81,7 +84,7 @@ export default {
 
 <style lang="postcss">
 #markdown-field p {
-  @apply text-lg my-2;
+  @apply text-lg my-4;
 }
 
 #markdown-field a {
