@@ -10,10 +10,10 @@ collections:
     label: "Posts"
     folder: "posts"
     create: true
-    slug: "{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: 
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Excerpt", name: "excerpt", widget: "string"}
-      - {label: "Thumbnail Image", name: "thumbnail", widget: "image"}
-      - {label: "Publish Date", name: "date", widget: "datetime", picker_utc: true}
+      - {label: "Excerpt", name: "excerpt", widget: "string", required: false}
+      - {label: "Thumbnail Image", name: "thumbnail", widget: "image", required: false}
+      - {label: "Publish Date", name: "date", format: "YYYY-MM-DD", widget: "datetime", picker_utc: true}
       - {label: "Body", name: "body", widget: "markdown"}

@@ -2,6 +2,6 @@
 title: test
 excerpt: haha
 thumbnail: /postimages/motor.jpg
-date: 2020-09-19T09:01:27.350Z
+date: 2018-11-20 23:42:14 -0700
 ---
 makan nasi pake sambel enak sekali
