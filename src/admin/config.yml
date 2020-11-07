@@ -13,7 +13,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: 
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Excerpt", name: "excerpt", widget: "string", default: ""}
-      - {label: "Thumbnail Image", name: "thumbnail", widget: "image", default: null}
-      - {label: "Publish Date", name: "date", widget: "datetime", default: "", date_format: "YYYY-MM-DD", time_format: "HH:mm", format: "LLL", picker_utc: false}
+      - {label: "Excerpt", name: "excerpt", widget: "string", default: "", required: false}
+      - {label: "Thumbnail Image", name: "thumbnail", widget: "image", default: null, required: false}
+      - {label: "Publish Date", name: "date", widget: "datetime", default: "", date_format: "YYYY-MM-DD", time_format: "HH:mm", format: "LL", picker_utc: true, required: false}
       - {label: "Body", name: "body", widget: "markdown"}
