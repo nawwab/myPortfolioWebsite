@@ -18,7 +18,6 @@
         </li>
       </ul>
     </div>
-    <h1 class="text-xl sm:text-3xl leading-tight mb-4">(Till) Today I Learned</h1>
   </Layout>
 </template>
 
