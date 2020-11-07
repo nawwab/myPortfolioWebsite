@@ -2,12 +2,7 @@
 title: Alasan dibalik bikin blog
 excerpt: dih sok-sokan bikin blog, biar apa sih?
 thumbnail: ""
-<<<<<<< HEAD
-excerpt: "dih sok-sokan bikin blog, biar apa sih?"
-date: "2018-11-20 23:42"
-=======
 date: 2020-10-11
->>>>>>> 445bc00f37adaaef71ee51a4ee4c8b1e87d19bb1
 ---
 
 Dulu banget pas duduk di SMP, gue sering banget pinjem komik Detective Conan punya sahabat gue, dan semakin lama gue membacanya, semakin tersadar juga sama hal kecil: Kalo kita bandingkan komik keluaran pertama/episode awal sama komik yang keluaran terbaru, gambar dari si Komikus Gosho Aoyama punya perbedaan yang sangat jauh, yang gue paling inget sih di bentuk muka si Conan Edogawa. Kalo gue dulu mikirnya gini sih "Beliau si pembuat serial komik ini mengembangkan skill menggambarnya selama dia membuat berepisode-episode komik dan dia nggak mikir dulu untuk mulai mempublish Detective Conan walaupun gambarnya ngga semirip atau ngga sesempurna dengan yang sering kita tonton di televisi setiap minggu pagi".
