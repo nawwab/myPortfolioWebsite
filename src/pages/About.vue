@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <h1 class="text-3xl sm:text-6xl leading-tight mb-4">About Me</h1>
-    <div id="content-field">
+    <div id="content-field" class="mb-4">
       <p>
       Hello my name is Nawwab Zia, I'm an IT student and now I'm interested in WebDev world. feel free to visit
       my social media or any platform below:
@@ -18,6 +18,7 @@
         </li>
       </ul>
     </div>
+    <h1 class="text-xl sm:text-3xl leading-tight mb-4">(Till) Today I Learned</h1>
   </Layout>
 </template>
 
