@@ -13,9 +13,6 @@
         <li>
           <a href="https://github.com/nawwab">Github</a>: I store my programming stuff or my side project here.
         </li>
-        <li>
-          <a href="https://twitter.com/nawwab__zia">Twitter</a>: I mean, why not?.
-        </li>
       </ul>
     </div>
   </Layout>
